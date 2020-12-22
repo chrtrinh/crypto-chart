@@ -1,0 +1,41 @@
+.navbar {
+	border: 1px solid #000;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.navbar__logo > img {
+	width: 200px;
+}
+
+.navbar__links {
+	margin-left: 1.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.navbar__links > a {
+	color: white;
+	text-decoration: none;
+	margin-right: 1.5rem;
+}
+
+.navbar__top {
+	color: white;
+	display: flex;
+	padding: 10px;
+	padding-left: 15px;
+}
+
+.navbar__top > h4 {
+	margin-right: 10px;
+}
+
+.navbar__bottom {
+	border-top: 1px solid lightgray;
+	padding: 15px;
+	display: flex;
+}
